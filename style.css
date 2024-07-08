@@ -1,0 +1,83 @@
+body {
+  font-family: 'Times New Roman', serif; /* Define Times New Roman */
+  margin: 0;
+  padding: 0;
+  background-image: url("https://i.pinimg.com/originals/d1/ac/92/d1ac92c711b3da96055c2b71cc4cb4c6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.6); /* Fondo semi-transparente */
+  color: #fff;
+  padding: 1rem 0;
+  display: flex; /* Para alinear el botón y el título */
+  justify-content: center; /* Centra el botón */
+  align-items: center; /* Alineación vertical */
+}
+
+h1 {
+  margin: 0;
+  text-align: center; /* Centra el título */
+}
+
+#backButton {
+  background-color: #333; /* Color similar al fondo del header */
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.title-container {
+  text-align: center; /* Centra el título */
+  margin: 1rem auto; /* Espacio arriba y abajo, y centrado */
+  width: 50%; /* Ancho del contenedor del título */
+  position: relative; /* Para posicionar el título */
+  top: -1rem; /* Ajusta la posición del título */
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.box {
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente */
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 18%; /* Ancho aún menor para más separación */
+  text-align: center;
+  position: relative; /* Permite posicionar la imagen */
+}
+
+.box h2 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.box ul {
+  list-style: disc;
+  margin-left: 2rem;
+  padding: 0;
+}
+
+.box ul li {
+  margin-bottom: 0.5rem;
+}
+
+.box-image {
+  width: 100%; /* Imagen ocupa todo el ancho del recuadro */
+  display: block; /* Evita espacio extra debajo de la imagen */
+  margin: 1rem 0; /* Margen arriba y abajo de la imagen */
+}
